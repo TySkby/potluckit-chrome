@@ -1,0 +1,5 @@
+# IDE project folder
+/nbproject/
+
+# Extension private key file
+extension.pem

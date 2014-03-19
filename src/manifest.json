@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Potluck It Extension",
+    "description": "Potluck It bookmarklet from an extension.",
+    "version": "0.5",
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_icon": "potluckit.png",
+        "default_title": "Potluck It"
+    }
+}
